@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_local.dart';
+import 'package:planit/repeat/repeat_task_screen.dart';
 import 'package:planit/time/time_set-screen.dart';
 
 import 'calender/dialog/calendar_dialog_screen.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: [
         const Locale('ko', 'KR'), // 한국어
       ],
-      home: CalendarDialogScreen(),
+      home: RepeatTaskScreen(),
     );
   }
 }
