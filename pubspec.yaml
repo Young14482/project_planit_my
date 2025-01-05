@@ -34,7 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  table_calendar: ^3.1.3
+  table_calendar: ^3.1.3 # 캘린더 라이브러리
+  flutter_localization: ^0.3.0 # 플러터 기능들 다른 언어로 나오도록 하는 라이브러리
 
 dev_dependencies:
   flutter_test:
