@@ -38,7 +38,7 @@ class CalendarAppBar extends StatelessWidget implements PreferredSizeWidget {
                   Expanded(
                     child: Center(
                       child: Text(
-                        DateFormat.yMMMM().format(focusedDay),
+                        DateFormat.yMMMM('ko_KR').format(focusedDay),
                         style: const TextStyle(fontSize: 24.0),
                       ),
                     ),

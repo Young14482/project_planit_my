@@ -3,6 +3,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:planit/time/time_set-screen.dart';
 
+import 'calender/dialog/calendar_dialog_screen.dart';
+
 void main() async {
   // 한국어로 바꾸는 라이브러리 설정 >> 시작전에 바꾸고 가는 방식인듯
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: [
         const Locale('ko', 'KR'), // 한국어
       ],
-      home: TimeSetrScreen(),
+      home: CalendarDialogScreen(),
     );
   }
 }
